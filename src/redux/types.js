@@ -1,0 +1,24 @@
+//USER REDUCER TYPES
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED";
+export const SET_USER = "SET_USER";
+export const LOADING_USER = "LOADING_USER";
+export const MARK_NOTIFICATIONS = "MARK_NOTIFICATIONS";
+//UI REDUCER TYPES
+export const SET_ERRORS = "SET_ERRORS";
+export const LOADING_UI = "LOADING_UI";
+export const STOP_LOADING_UI = "STOP_LOADING_UI";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const LOADING_DATA = "LOADING_DATA";
+export const DIALOG_OPEN = "DIALOG_OPEN";
+export const DIALOG_CLOSE = "DIALOG_CLOSE";
+//POST REDUCER TYPES
+export const SET_BARKS = "SET_BARKS";
+export const SET_ONE_BARK = "SET_ONE_BARK";
+export const LIKE_BARK = "LIKE_BARK";
+export const UNLIKE_BARK = "UNLIKE_BARK";
+export const DELETE_BARK = "DELETE_BARK";
+export const POST_BARK = "POST_BARK";
+export const SUBMIT_COMMENT = "SUBMIT_COMMENT";
+
+
